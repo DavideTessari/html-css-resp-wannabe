@@ -137,10 +137,11 @@ img {
 @media screen and (max-width: 480px) {
     .row {
         flex-direction: column;
+        flex-wrap: wrap;
     }
  
-    .container {
-        width: 100%; 
+    section .container .col {
+        width: 100%;
     }
 
 }
